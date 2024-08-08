@@ -20,8 +20,8 @@ def is_contains(string_info, is_contains):
 
 
 calls = 0
-print(string_info('banana'))
-print(string_info('potato'))
-print(is_contains('banana', ['ban', 'ana', 'ananab']))
-print(is_contains('potato', ['pot', 'tato', 'otatop']))
+print(string_info('Capybara'))
+print(string_info('Armageddon'))
+print(is_contains('Urban', ['ban', 'BaNaN', 'urBAN'])) # Urban ~ urBAN
+print(is_contains('cycle', ['recycling', 'cyclic'])) # No matches
 print(calls)
