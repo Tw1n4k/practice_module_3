@@ -1,4 +1,4 @@
-def send_email(massage, recipient, *, sender="university.help@gmail.com"):
+def send_email(message, recipient, *, sender="university.help@gmail.com"):
     a = "@"
     while 1 > 0:
         if recipient.endswith(('.com', '.ru', '.net')) and sender.endswith(('.com', '.ru', '.net')):
